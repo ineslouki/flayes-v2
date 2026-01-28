@@ -1,0 +1,52 @@
+#mission {
+   width: 100%;
+    min-height: 700px; 
+    padding-top: 100px;
+    background-color: rgb(223, 220, 216);
+    justify-content: center; 
+    
+}
+.phone{
+    float:right;
+    min-width: 100px;
+}
+.titre{
+font-size: 35px;
+text-align: center;
+}
+.soustitre{
+    font-size: 18px;
+padding-left: 80px;
+padding-right: 80px;
+ text-align: center; 
+}
+button {
+    min-width: 100px;
+  color: rgb(0, 0, 0);
+  padding: 12px;
+  border-radius: 15px;
+  border-color: rgb(78, 41, 0);
+  border-style:groove;
+  border-width: 1px;
+  font-weight: bold;
+       
+}
+.buttons{
+     margin: 70px ;
+     display: flex;       
+    flex-wrap: wrap;       
+    justify-content: center; 
+    align-items: flex-start;
+    gap: 50px;
+    flex-direction: rows; 
+}
+.phrase{
+          
+    color: #3d3d29;
+    text-align: center;
+    font-size: 60px; 
+}
+button.active {
+  background-color: #eb0000;
+  color: #fff;
+}

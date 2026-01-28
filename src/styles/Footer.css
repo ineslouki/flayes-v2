@@ -1,0 +1,21 @@
+.footer{
+    height: 100px;
+    width: 100%;
+    margin-bottom: 0px;
+    background-color: rgb(228, 173, 104);
+    align-items: center;
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+p { 
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.contact svg {
+  font-size: 40px;
+
+  justify-content: space-between; 
+}
