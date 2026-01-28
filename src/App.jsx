@@ -9,7 +9,7 @@ import Partner from "./pages/Partner.jsx";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/flayes-v2/">
       <div className="App">
         <ScrollToHash />
         <Navbar />

@@ -5,7 +5,8 @@ import svgr from "vite-plugin-svgr";
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(),tailwindcss(),svgr()]
+  base: '/flayes-v2/',
+  plugins: [react(), tailwindcss(), svgr()]
   
 })
 
